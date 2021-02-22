@@ -1,1 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  background-color: #101010;
+}
+nav .nav-up {
+  height: 45px;
+  color: lightgrey;
+}
+nav .nav-up i {
+  color: #009CFF;
+}
+nav .nav-down {
+  height: 50px;
+  color: white;
+}

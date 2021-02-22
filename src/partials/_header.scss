@@ -1,0 +1,15 @@
+nav{
+  width: 100%;
+  background-color: $nav-col;
+  .#{&}-up{
+    height: $nav-upH;
+    color: lightgrey;
+    i{
+      color: $icons-col;
+    }
+  }
+  .#{&}-down{
+    height: $nav-downH;
+    color: white;
+  }
+}
