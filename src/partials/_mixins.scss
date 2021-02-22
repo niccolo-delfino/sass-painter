@@ -6,3 +6,8 @@
   display: flex;
   justify-content: flex-end;
 }
+
+@mixin flexCenter{
+  display: flex;
+  align-items: center;
+}

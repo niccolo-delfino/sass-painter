@@ -1,0 +1,21 @@
+.jumbotron {
+  width: 100%;
+  height: $jumboH;
+  background-image: url('https://www.painterartist.com/static/ptr/images/home/bg-painter-home.jpg');
+  background-size: cover;
+  background-position: center;
+  @include flexCenter;
+  img{
+    width: 250px;
+    padding-bottom: 20px;
+  }
+  .container>p{
+    font-size: 21px;
+  }
+  .promo{
+    padding-top: 30px;
+    font-size: 18px;
+    font-style: oblique;
+    color: #c70cb9;
+  }
+}
