@@ -25,6 +25,19 @@ li:hover {
   text-decoration: underline;
 }
 
+.btn {
+  padding: 10px 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.btn-black {
+  color: white;
+  background-color: black;
+}
+.btn-border {
+  border: 2px solid black;
+}
+
 nav {
   width: 100%;
   background-color: #101010;
@@ -37,6 +50,9 @@ nav .nav-up {
 }
 nav .nav-up ul {
   display: flex;
+}
+nav .nav-up ul li {
+  font-size: 13px;
 }
 nav .nav-up ul li i {
   padding-left: 20px;
@@ -79,11 +95,16 @@ nav .nav-down ul li a {
   padding-bottom: 20px;
 }
 .jumbotron .container > p {
+  width: 40%;
   font-size: 21px;
 }
 .jumbotron .promo {
   padding-top: 30px;
+  margin-bottom: 40px;
   font-size: 18px;
   font-style: oblique;
   color: #c70cb9;
+}
+.jumbotron .btn {
+  margin-right: 20px;
 }

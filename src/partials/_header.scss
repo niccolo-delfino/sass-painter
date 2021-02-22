@@ -8,6 +8,7 @@ nav{
     ul{
       @include flex;
       li{
+        font-size: 13px;
         i{
           padding-left: 20px;
           padding-right: 5px;
