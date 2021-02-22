@@ -1,0 +1,8 @@
+@mixin flex{
+  display: flex;
+}
+
+@mixin flexEnd{
+  display: flex;
+  justify-content: flex-end;
+}

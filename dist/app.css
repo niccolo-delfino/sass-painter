@@ -24,9 +24,20 @@ nav {
 nav .nav-up {
   height: 45px;
   color: lightgrey;
+  line-height: 45px;
+  display: flex;
+  justify-content: flex-end;
+}
+nav .nav-up ul {
+  display: flex;
 }
 nav .nav-up i {
+  padding-left: 20px;
+  padding-right: 5px;
   color: #009CFF;
+}
+nav .nav-up select {
+  margin-left: 20px;
 }
 nav .nav-down {
   height: 50px;

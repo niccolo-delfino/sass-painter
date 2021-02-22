@@ -4,8 +4,18 @@ nav{
   .#{&}-up{
     height: $nav-upH;
     color: lightgrey;
+    line-height: $nav-upH;
+    @include flexEnd;
+    ul{
+      @include flex;
+    }
     i{
+      padding-left: 20px;
+      padding-right: 5px;
       color: $icons-col;
+    }
+    select{
+      margin-left: 20px;
     }
   }
   .#{&}-down{
