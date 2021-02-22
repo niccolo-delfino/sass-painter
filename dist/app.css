@@ -30,6 +30,9 @@ li:hover {
   font-size: 20px;
   text-transform: uppercase;
 }
+.btn:hover {
+  cursor: pointer;
+}
 .btn-black {
   color: white;
   background-color: black;
@@ -140,10 +143,41 @@ footer .footer-up .container .icons {
   width: 100%;
   text-align: right;
   font-size: 30px;
+}
+footer .footer-up .container .icons a {
   color: #009CFF;
 }
 footer .footer-down {
   width: 100%;
   height: 80px;
   background-color: #1E1E1E;
+}
+footer .footer-down .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-down .container .loghi {
+  height: 100%;
+  display: flex;
+}
+footer .footer-down .container .loghi img {
+  align-self: center;
+  height: 50px;
+  padding-right: 20px;
+}
+footer .footer-down .container .terms {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+footer .footer-down .container .terms ul {
+  display: flex;
+}
+footer .footer-down .container .terms ul li a {
+  padding-right: 15px;
+  color: grey;
+}
+footer .footer-down .container .terms span {
+  color: white;
 }
