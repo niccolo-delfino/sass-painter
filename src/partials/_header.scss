@@ -3,16 +3,20 @@ nav{
   background-color: $nav-col;
   .#{&}-up{
     height: $nav-upH;
-    color: lightgrey;
     line-height: $nav-upH;
     @include flexEnd;
     ul{
       @include flex;
-    }
-    i{
-      padding-left: 20px;
-      padding-right: 5px;
-      color: $icons-col;
+      li{
+        i{
+          padding-left: 20px;
+          padding-right: 5px;
+          color: $icons-col;
+        }
+        a{
+          color: lightgrey;
+        }
+      }
     }
     select{
       margin-left: 20px;
@@ -20,6 +24,20 @@ nav{
   }
   .#{&}-down{
     height: $nav-downH;
-    color: white;
+    line-height: $nav-downH;
+    @include flex;
+    img{
+      width: 90px;
+    }
+    ul{
+      @include flex;
+      li{
+        a{
+          padding-left: 30px;
+          color: white;
+        }
+      }
+    }
+
   }
 }

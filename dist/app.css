@@ -13,8 +13,12 @@ a {
 }
 
 .container {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
+}
+
+li:hover {
+  text-decoration: underline;
 }
 
 nav {
@@ -23,7 +27,6 @@ nav {
 }
 nav .nav-up {
   height: 45px;
-  color: lightgrey;
   line-height: 45px;
   display: flex;
   justify-content: flex-end;
@@ -31,15 +34,29 @@ nav .nav-up {
 nav .nav-up ul {
   display: flex;
 }
-nav .nav-up i {
+nav .nav-up ul li i {
   padding-left: 20px;
   padding-right: 5px;
   color: #009CFF;
+}
+nav .nav-up ul li a {
+  color: lightgrey;
 }
 nav .nav-up select {
   margin-left: 20px;
 }
 nav .nav-down {
   height: 50px;
+  line-height: 50px;
+  display: flex;
+}
+nav .nav-down img {
+  width: 90px;
+}
+nav .nav-down ul {
+  display: flex;
+}
+nav .nav-down ul li a {
+  padding-left: 30px;
   color: white;
 }
